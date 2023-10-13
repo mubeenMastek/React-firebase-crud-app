@@ -1,0 +1,21 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}
+.body{
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;  
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    
+}
+.body > div{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.body > div .label{
+    font-weight: 600;
+}

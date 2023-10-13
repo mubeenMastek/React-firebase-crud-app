@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+.form form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.form form .form-control {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.form form button {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #0d6efd;
+    color: white;
+}
